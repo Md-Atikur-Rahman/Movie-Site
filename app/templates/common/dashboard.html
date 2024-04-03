@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="content" style=" text-align: center; margin: 0 auto;">
+    <h1>Movie List</h1>
+    <ul>
+      {% for movie in movies %}
+        <li>
+          <a href="{% url 'movie_detail' movie.id %}">{{ movie.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    {% if movies.has_previous %}
+      <a href="?page=1">First</a>
+      <a href="?page={{ movies.previous_page_number }}">Previous</a>
+    {% endif %}
+
+    <span class="current">Page {{ movies.number }} of {{ movies.paginator.num_pages }}.</span>
+
+    {% if movies.has_next %}
+      <a href="?page={{ movies.next_page_number }}">Next</a>
+      <a href="?page={{ movies.paginator.num_pages }}">Last</a>
+    {% endif %}
+  </div>
+{% endblock %}

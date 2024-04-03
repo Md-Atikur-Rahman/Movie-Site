@@ -1,0 +1,21 @@
+id,name,phone,password,email
+1,John Doe,11111111111,pass1,john_doe@gmail.com
+2,Jane Doe,22222222222,pass2,jane_doe@gmail.com
+3,Mark Doe,3333333333,pass3,mark_doe@gmail.com
+4,Macy Doe,4444444444,pass4,macy_doe@gmail.com
+5,Adam Smith,5555555555,pass5,adam_smith@gmail.com
+6,Eva Brown,6666666666,pass6,eva_brown@gmail.com
+7,Michael Johnson,7777777777,pass7,michael_johnson@gmail.com
+8,Sophia Miller,8888888888,pass8,sophia_miller@gmail.com
+9,William Taylor,9999999999,pass9,william_taylor@gmail.com
+10,Olivia Anderson,1010101010,pass10,olivia_anderson@gmail.com
+11,James Wilson,1111111111,pass11,james_wilson@gmail.com
+12,Emma Martinez,1212121212,pass12,emma_martinez@gmail.com
+13,Liam Thomas,1313131313,pass13,liam_thomas@gmail.com
+14,Isabella Clark,1414141414,pass14,isabella_clark@gmail.com
+15,Alexander Rodriguez,1515151515,pass15,alexander_rodriguez@gmail.com
+16,Sophia Lewis,1616161616,pass16,sophia_lewis@gmail.com
+17,Emily Lee,1717171717,pass17,emily_lee@gmail.com
+18,Michael Walker,1818181818,pass18,michael_walker@gmail.com
+19,Abigail Hall,1919191919,pass19,abigail_hall@gmail.com
+20,Ethan Green,2020202020,pass20,ethan_green@gmail.com

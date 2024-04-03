@@ -1,0 +1,21 @@
+id,name,genre,rating,release_date
+1,Home Alone,Comedy,PG,01-04-1996
+2,The Godfather,Crime,R,01-04-1972
+3,Avengers: Endgame,Action,PG,01-04-2019
+4,Inception,Sci-Fi,PG-13,01-04-2010
+5,The Shawshank Redemption,Drama,R,01-04-1994
+6,Pulp Fiction,Crime,R,01-04-1994
+7,The Dark Knight,Action,PG-13,01-04-2008
+8,Forrest Gump,Drama,PG-13,01-04-1994
+9,Schindler's List,Biography,R,01-04-1993
+10,Fight Club,Drama,R,01-04-1999
+11,The Matrix,Sci-Fi,R,01-04-1999
+12,Goodfellas,Crime,R,01-04-1990
+13,The Lord of the Rings: The Return of the King,Adventure,PG-13,01-04-2003
+14,The Silence of the Lambs,Crime,R,01-04-1991
+15,The Lion King,Animation,G,01-04-1994
+16,Gladiator,Action,R,01-04-2000
+17,The Departed,Crime,R,01-04-2006
+18,The Prestige,Drama,PG-13,01-04-2006
+19,Saving Private Ryan,Drama,R,01-04-1998
+20,Interstellar,Sci-Fi,PG-13,01-04-2014

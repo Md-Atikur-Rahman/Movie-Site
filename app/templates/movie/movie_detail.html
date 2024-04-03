@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block content %}
+  <div class="content" style=" text-align: center; margin: 0 auto;">
+    <h4>{{ movie.name }} Details</h4>
+    <ul>
+      <li>Genre: {{ movie.genre }}</li>
+      <li>Rating: {{ movie.rating }}</li>
+      <li>Release Date: {{ movie.release_date }}</li>
+      <li>Average Rating: {{ movie.average_rating|floatformat:'2' }}</li>
+    </ul>
+    {% if user_rating %}
+      <p>Your rating: {{ user_rating.rating }}</p>
+    {% else %}
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Rate Movie</button>
+      </form>
+    {% endif %}
+  </div>
+{% endblock %}
